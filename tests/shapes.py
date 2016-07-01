@@ -72,5 +72,12 @@ class TestMatch2D (unittest.TestCase):
         self.assertEquals (2, len (landscape.population))
         self.assertEquals (0, landscape.count_overlaps)
 
+    def test40 (self):
+        landscape = Landscape2D (filename = './landscape40.txt')
+        bug1 = Bug2D (filename = './bug40.txt')
+        landscape.populate (thing = bug1, remove_overlaps=False)
+        self.assertEquals (2, len (landscape.population))
+        self.assertEquals (0, landscape.count_overlaps)
+
 if __name__ == '__main__':
     unittest.main()
