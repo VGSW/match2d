@@ -1,0 +1,14 @@
+
+die mittler zeile wird ignoriert :/
+
+    | |
+    ###O
+    | |
+
+    | |
+    -##O
+    | |
+
+    | |
+
+    | |
